@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epup - Read to Grow</title>
+    
+    <meta name="title" content="Epup - Read to Grow">
+    <meta name="description" content="Import your favorite EPUBs and watch your virtual companion evolve with every page you turn. Gamify your reading habit.">
+    <meta name="keywords" content="epub reader, gamified reading, virtual pet, reading tracker, ios, android">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://epup.app/">
+    <meta property="og:title" content="Epup - Read to Grow">
+    <meta property="og:description" content="Import your favorite EPUBs and watch your virtual companion evolve with every page you turn.">
+    <meta property="og:image" content="https://epup.app/assets/social-preview.png">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://epup.app/">
+    <meta property="twitter:title" content="Epup - Read to Grow">
+    <meta property="twitter:description" content="Import your favorite EPUBs and watch your virtual companion evolve with every page you turn.">
+    <meta property="twitter:image" content="https://epup.app/assets/social-preview.png">
+
+    <link rel="icon" type="image/png" href="assets/icon.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lucide/0.263.1/umd/lucide.min.js"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #F9F4E6; color: #2C2C2C; }
+        .bg-teal-custom { background-color: #4ECDC4; }
+        .text-teal-custom { color: #4ECDC4; }
+        .bg-brown-custom { background-color: #5C4033; }
+        .text-brown-custom { color: #5C4033; }
+        .feature-img { filter: drop-shadow(0 4px 6px rgba(0,0,0,0.1)); }
+    </style>
+</head>
+<body>
+
+    <nav class="w-full py-6 px-4 md:px-8 flex justify-between items-center max-w-6xl mx-auto">
+        <div class="flex items-center gap-3">
+            <img src="assets/icon.png" alt="Epup Logo" class="w-10 h-10 rounded-xl shadow-sm">
+            <span class="text-2xl font-bold tracking-tight text-brown-custom">Epup</span>
+        </div>
+        <div class="hidden md:flex gap-6 font-medium text-brown-custom">
+            <a href="#features" class="hover:text-teal-custom transition-colors">Features</a>
+            <a href="#privacy" class="hover:text-teal-custom transition-colors">Privacy</a>
+            <a href="#terms" class="hover:text-teal-custom transition-colors">Terms</a>
+        </div>
+    </nav>
+
+    <header class="w-full pt-8 pb-20 px-4 text-center max-w-4xl mx-auto">
+        <div class="mb-8 flex justify-center">
+            <img src="assets/papyrus.gif" alt="Reading Companion" class="w-48 h-48 object-contain filter drop-shadow-xl">
+        </div>
+        <h1 class="text-4xl md:text-6xl font-bold text-brown-custom mb-6">Your reading journey begins.</h1>
+        <p class="text-xl md:text-2xl text-gray-600 mb-10 max-w-2xl mx-auto">
+            Read to Grow. Import your favorite EPUBs and watch your companion evolve with every page you turn.
+        </p>
+        <div class="flex justify-center gap-4">
+            <button class="bg-teal-custom text-white px-8 py-3 rounded-full font-bold shadow-lg hover:opacity-90 transition-opacity flex items-center gap-2 transform hover:scale-105 duration-200">
+                <i data-lucide="download"></i> Download App
+            </button>
+        </div>
+    </header>
+
+    <section id="features" class="w-full py-16 px-4 bg-white">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-12">
+            <div class="text-center p-6 rounded-3xl bg-gray-50 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+                <div class="h-40 flex items-center justify-center mb-6">
+                    <img src="assets/read.png" alt="Read to Grow" class="h-24 object-contain feature-img">
+                </div>
+                <h3 class="text-xl font-bold mb-3 text-brown-custom">Read to Grow</h3>
+                <p class="text-gray-600 leading-relaxed">
+                    Import your favorite EPUBs directly to your device. Every page you turn earns XP and Ink for your virtual companion.
+                </p>
+            </div>
+            
+            <div class="text-center p-6 rounded-3xl bg-gray-50 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+                <div class="h-40 flex items-center justify-center mb-6">
+                    <img src="assets/papyrus.gif" alt="Your Reading Pal" class="h-32 object-contain feature-img">
+                </div>
+                <h3 class="text-xl font-bold mb-3 text-brown-custom">Your Reading Pal</h3>
+                <p class="text-gray-600 leading-relaxed">
+                    Your companion evolves as you read. Feed them, keep them happy, and build a daily reading streak to unlock rewards.
+                </p>
+            </div>
+
+            <div class="text-center p-6 rounded-3xl bg-gray-50 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+                <div class="h-40 flex items-center justify-center mb-6">
+                    <img src="assets/shop.png" alt="Decorate & Collect" class="h-24 object-contain feature-img">
+                </div>
+                <h3 class="text-xl font-bold mb-3 text-brown-custom">Decorate & Collect</h3>
+                <p class="text-gray-600 leading-relaxed">
+                    Use your earned Ink to craft furniture, unlock new pet skins, and customize your personal reading nook.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <div class="max-w-4xl mx-auto px-4 py-16 grid gap-16">
+        
+        <section id="privacy" class="bg-white p-8 md:p-12 rounded-3xl shadow-sm border border-gray-100">
+            <div class="flex items-center gap-3 mb-8 border-b border-gray-100 pb-4">
+                <i data-lucide="shield" class="w-6 h-6 text-teal-custom"></i>
+                <h2 class="text-2xl font-bold text-brown-custom">Privacy Policy</h2>
+            </div>
+            
+            <div class="space-y-8">
+                <div>
+                    <h3 class="text-lg font-bold mb-2 text-gray-800">1. Data Collection</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Currently, Epup operates entirely offline. In the event that advertisements or cloud services are introduced in the future, non-personal usage data or identifiers may be collected to support these features, subject to an updated Privacy Policy.
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-bold mb-2 text-gray-800">2. Local Data</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Your reading habits, stats, and pet data are stored locally on your device. Deleting the app will delete this data unless you have manually exported a save file.
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-bold mb-2 text-gray-800">3. Third Party Services</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        The app may search public book repositories (like Project Gutenberg via Gutendex) at your specific request. Future updates may include third-party advertising networks or analytics providers, which will be disclosed here.
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-bold mb-2 text-gray-800">4. Contact Us</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        If you have questions regarding privacy while using the Application, or have questions about our practices, please contact us via email at: epupappofficial@gmail.com
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="terms" class="bg-white p-8 md:p-12 rounded-3xl shadow-sm border border-gray-100">
+            <div class="flex items-center gap-3 mb-8 border-b border-gray-100 pb-4">
+                <i data-lucide="file-text" class="w-6 h-6 text-teal-custom"></i>
+                <h2 class="text-2xl font-bold text-brown-custom">Terms of Service</h2>
+            </div>
+            
+            <p class="text-sm text-gray-500 mb-6">Last Updated: January 20, 2026</p>
+
+            <div class="space-y-8">
+                <div>
+                    <h3 class="text-lg font-bold mb-2 text-gray-800">1. Service & Data</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Epup is a locally hosted application. Game progress and history are stored on your device. However, we reserve the right to introduce cloud features or server-side functionality in the future.
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-bold mb-2 text-gray-800">2. Monetization & Purchases</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        While Epup may currently be available for free, we reserve the right to introduce in-app purchases, subscriptions, or advertisements in future versions. Use of specific premium features may require payment or subscription as defined in future updates.
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-bold mb-2 text-gray-800">3. Content Usage</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Users are responsible for the EPUB files they import. Epup is a reader tool and does not provide copyrighted content.
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-bold mb-2 text-gray-800">4. Updates to Terms</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        We reserve the right to modify these Terms of Service at any time. We will notify you of any changes by posting the new Terms of Service on this page. Your continued use of the application constitutes acceptance of these changes.
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-bold mb-2 text-gray-800">5. Disclaimer of Warranties</h3>
+                    <p class="text-gray-600 leading-relaxed uppercase text-sm">
+                        THE APPLICATION IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. WE DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY.
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-bold mb-2 text-gray-800">6. Contact</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        If you have any questions about these Terms, please contact us at: epupappofficial@gmail.com
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer class="bg-brown-custom text-white py-12 px-4">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="flex items-center gap-2">
+                <img src="assets/icon.png" alt="Epup" class="w-6 h-6 rounded bg-white p-0.5">
+                <span class="text-xl font-bold">Epup</span>
+            </div>
+            <div class="text-sm text-gray-300">
+                &copy; 2026 Epup. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
