@@ -1,5 +1,6 @@
 {
   "latestVersion": "1.1.0",
   "message": "A new update is available! Update now to access new features.",
-  "storeUrl": "https://apps.apple.com/app/id123456789"
+  "storeUrlIos": "https://apps.apple.com/app/id6757599559",
+  "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.hariesramdhani.epup"
 }
